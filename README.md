@@ -11,6 +11,32 @@ The general design idea is, that the protocol should work with as little offchai
 3. It needs at least one other publickey to approve the request. So we can say it is a implementation of a 2 of n multisignature wallet. (I think it scales up to 3 out of n without needing offchain storage)
 4. Once someone has approved the request. The requester can sendMina to his publickey.
 ```
+
+## current problems
+
+## 1. The request attack:
+
+```
+A mallicious publickey in the merkletree could just send new requests all the time in order to avoid approval of another request.
+```
+
+## Solution:
+
+```
+The request can only be made every so and so blocks. The idea is to set a time limit
+```
+
+## 2. The Permissions:
+
+```
+Permissions are set to none for development purpose.
+```
+
+## Solution:
+
+```
+set them to proof should solve it.
+```
 ## How to build
 
 ```sh
