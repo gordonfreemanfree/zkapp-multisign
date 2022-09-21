@@ -1,4 +1,5 @@
 # Mina zkApp: Zkapp Multisign
+https://berkeley.minaexplorer.com/wallet/B62qrFU5nJnyvSQV7vHcnXtG9ychNzYbESCp2jiLNi9etPeEwdpAxWe
 
 This is a simple implementation of a multisignature wallet. Still WIP and Permissions are not set correctly.
 The general design idea is, that the protocol should work with as little offchain storage as possible.
