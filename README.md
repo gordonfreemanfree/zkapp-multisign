@@ -12,7 +12,7 @@ The general design idea is, that the protocol should work with as little offchai
 4. Once someone has approved the request. The requester can sendMina to his publickey.
 ```
 
-## current problems
+# current problems
 
 ## 1. The request attack:
 
